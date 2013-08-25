@@ -1,0 +1,10 @@
+00 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r archlinux
+10 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r centos
+20 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r fedora
+30 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r epel
+40 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r rpmfusion
+50 2 * * * /ftp/syncutils/sync-mirror.rb -6 -r gentoo
+00 3 * * * /ftp/syncutils/sync-mirror.rb -6 -r gentoo-portage
+10 3 * * * /ftp/syncutils/sync-mirror.rb -6 -r linuxmint
+20 3 * * * /ftp/syncutils/sync-mirror.rb -6 -r ubuntu
+30 3 * * * /ftp/syncutils/sync-mirror.rb -6 -r rubygems
